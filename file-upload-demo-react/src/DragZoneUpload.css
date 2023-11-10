@@ -1,0 +1,7 @@
+progress::-webkit-progress-value ::-moz-progress-bar {
+    /* border: none; */
+    background-color: #9e1b34 !important;
+}
+
+/* Can't change the color of progress bar */
+  
