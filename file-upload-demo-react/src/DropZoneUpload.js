@@ -59,6 +59,7 @@ export default function DropZoneUpload() {
         <ThemeProvider theme={theme}>
             <Container maxWidth="sm">
                 <DropzoneArea onChange={(files) => updateFileName(files)}
+                    filesLimit={1}
                     dropzoneClass="dropZoneArea"
                     dropzoneParagraphClass="dropZoneAreaParagraph"
                     dropzoneText="Drag and drop a file here or click to upload"
