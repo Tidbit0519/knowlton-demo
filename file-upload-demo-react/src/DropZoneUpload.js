@@ -67,8 +67,8 @@ export default function DropZoneUpload() {
                     showPreviewsInDropzone={false}
                     useChipsForPreview={true}
                     previewChipProps={{ color: "secondary" }}
-                    previewGridProps={{ container: { spacing: 1, direction: 'row' } }}
-                    previewText="Selected files"
+                    previewGridProps={{ container: { spacing: 1, direction: 'column' } }}
+                    previewText="Selected file:"
                     alertSnackbarProps={{ anchorOrigin: { vertical: "top", horizontal: "right" } }} />
             </Container>
             <br />
